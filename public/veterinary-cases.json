@@ -1,0 +1,2526 @@
+{
+  "diagnosticTests": [
+    {
+      "id": "physical-exam",
+      "name": "Physical Examination",
+      "category": "physical",
+      "cost": 50,
+      "timeRequired": 15,
+      "description": "Complete physical assessment including vital signs, body condition, hydration status",
+      "icon": "🩺"
+    },
+    {
+      "id": "complete-blood-count",
+      "name": "Complete Blood Count (CBC)",
+      "category": "blood",
+      "cost": 85,
+      "timeRequired": 30,
+      "description": "Analysis of blood cells and platelets",
+      "icon": "🩸"
+    },
+    {
+      "id": "biochemistry-panel",
+      "name": "Biochemistry Panel",
+      "category": "blood",
+      "cost": 120,
+      "timeRequired": 45,
+      "description": "Liver, kidney, and metabolic function tests",
+      "icon": "🧪"
+    },
+    {
+      "id": "electrolytes",
+      "name": "Electrolyte Panel",
+      "category": "blood",
+      "cost": 75,
+      "timeRequired": 30,
+      "description": "Sodium, potassium, chloride, bicarbonate levels",
+      "icon": "⚡"
+    },
+    {
+      "id": "thyroid-panel",
+      "name": "Thyroid Function Tests",
+      "category": "blood",
+      "cost": 95,
+      "timeRequired": 60,
+      "description": "T4, T3, TSH levels",
+      "icon": "🦋"
+    },
+    {
+      "id": "cortisol-test",
+      "name": "Cortisol Testing",
+      "category": "blood",
+      "cost": 110,
+      "timeRequired": 240,
+      "description": "ACTH stimulation or dexamethasone suppression test",
+      "icon": "💊"
+    },
+    {
+      "id": "coagulation-profile",
+      "name": "Coagulation Profile",
+      "category": "blood",
+      "cost": 90,
+      "timeRequired": 45,
+      "description": "PT, PTT, fibrinogen, D-dimers",
+      "icon": "🔴"
+    },
+    {
+      "id": "radiography-chest",
+      "name": "Chest X-Ray",
+      "category": "imaging",
+      "cost": 150,
+      "timeRequired": 20,
+      "description": "Thoracic radiography for heart, lungs, mediastinum",
+      "icon": "📻"
+    },
+    {
+      "id": "radiography-abdomen",
+      "name": "Abdominal X-Ray",
+      "category": "imaging",
+      "cost": 150,
+      "timeRequired": 20,
+      "description": "Abdominal radiography for organs, foreign bodies, gas patterns",
+      "icon": "📷"
+    },
+    {
+      "id": "ultrasound-abdomen",
+      "name": "Abdominal Ultrasound",
+      "category": "imaging",
+      "cost": 250,
+      "timeRequired": 45,
+      "description": "Soft tissue imaging of abdominal organs",
+      "icon": "🔊"
+    },
+    {
+      "id": "echocardiogram",
+      "name": "Echocardiogram",
+      "category": "imaging",
+      "cost": 300,
+      "timeRequired": 60,
+      "description": "Cardiac ultrasound for structure and function",
+      "icon": "💓"
+    },
+    {
+      "id": "ct-scan",
+      "name": "CT Scan",
+      "category": "imaging",
+      "cost": 800,
+      "timeRequired": 90,
+      "description": "Cross-sectional imaging for detailed anatomical assessment",
+      "icon": "🌀"
+    },
+    {
+      "id": "mri-scan",
+      "name": "MRI Scan",
+      "category": "imaging",
+      "cost": 1200,
+      "timeRequired": 120,
+      "description": "Magnetic resonance imaging for soft tissue detail",
+      "icon": "🧲"
+    },
+    {
+      "id": "urinalysis",
+      "name": "Urinalysis",
+      "category": "urinalysis",
+      "cost": 45,
+      "timeRequired": 20,
+      "description": "Urine chemistry and microscopic analysis",
+      "icon": "🧫"
+    },
+    {
+      "id": "urine-culture",
+      "name": "Urine Culture",
+      "category": "microbiology",
+      "cost": 65,
+      "timeRequired": 1440,
+      "description": "Bacterial culture and sensitivity testing",
+      "icon": "🦠"
+    },
+    {
+      "id": "fecal-exam",
+      "name": "Fecal Examination",
+      "category": "microbiology",
+      "cost": 35,
+      "timeRequired": 15,
+      "description": "Parasite and bacterial examination",
+      "icon": "🔬"
+    },
+    {
+      "id": "fecal-culture",
+      "name": "Fecal Culture",
+      "category": "microbiology",
+      "cost": 85,
+      "timeRequired": 1440,
+      "description": "Bacterial culture for enteric pathogens",
+      "icon": "🧬"
+    },
+    {
+      "id": "blood-culture",
+      "name": "Blood Culture",
+      "category": "microbiology",
+      "cost": 120,
+      "timeRequired": 1440,
+      "description": "Sterile blood collection for bacterial/fungal culture",
+      "icon": "🔴"
+    },
+    {
+      "id": "cytology",
+      "name": "Cytology",
+      "category": "pathology",
+      "cost": 75,
+      "timeRequired": 30,
+      "description": "Microscopic examination of cells",
+      "icon": "👁️"
+    },
+    {
+      "id": "biopsy",
+      "name": "Tissue Biopsy",
+      "category": "pathology",
+      "cost": 200,
+      "timeRequired": 2880,
+      "description": "Histopathological examination of tissue sample",
+      "icon": "🧬"
+    },
+    {
+      "id": "pcr-testing",
+      "name": "PCR Testing",
+      "category": "molecular",
+      "cost": 150,
+      "timeRequired": 480,
+      "description": "Molecular detection of pathogens",
+      "icon": "🧪"
+    },
+    {
+      "id": "serology",
+      "name": "Serology Panel",
+      "category": "serology",
+      "cost": 95,
+      "timeRequired": 240,
+      "description": "Antibody testing for infectious diseases",
+      "icon": "🛡️"
+    },
+    {
+      "id": "allergen-testing",
+      "name": "Allergen Testing",
+      "category": "serology",
+      "cost": 180,
+      "timeRequired": 1440,
+      "description": "Environmental and food allergen panel",
+      "icon": "🌸"
+    },
+    {
+      "id": "endoscopy",
+      "name": "Endoscopy",
+      "category": "advanced",
+      "cost": 400,
+      "timeRequired": 90,
+      "description": "Visual examination of internal organs",
+      "icon": "🔍"
+    },
+    {
+      "id": "arthroscopy",
+      "name": "Arthroscopy",
+      "category": "advanced",
+      "cost": 500,
+      "timeRequired": 120,
+      "description": "Joint examination and intervention",
+      "icon": "🦴"
+    },
+    {
+      "id": "bone-marrow",
+      "name": "Bone Marrow Aspirate",
+      "category": "advanced",
+      "cost": 300,
+      "timeRequired": 60,
+      "description": "Hematopoietic system evaluation",
+      "icon": "🦴"
+    },
+    {
+      "id": "csf-analysis",
+      "name": "CSF Analysis",
+      "category": "advanced",
+      "cost": 250,
+      "timeRequired": 90,
+      "description": "Cerebrospinal fluid examination",
+      "icon": "🧠"
+    },
+    {
+      "id": "cardiac-biomarkers",
+      "name": "Cardiac Biomarkers",
+      "category": "blood",
+      "cost": 85,
+      "timeRequired": 45,
+      "description": "Troponin, CK-MB, BNP levels",
+      "icon": "💖"
+    },
+    {
+      "id": "ammonia-level",
+      "name": "Blood Ammonia",
+      "category": "blood",
+      "cost": 55,
+      "timeRequired": 30,
+      "description": "Hepatic function assessment",
+      "icon": "🧪"
+    },
+    {
+      "id": "bile-acids",
+      "name": "Bile Acid Testing",
+      "category": "blood",
+      "cost": 75,
+      "timeRequired": 60,
+      "description": "Pre and post-prandial bile acid levels",
+      "icon": "💛"
+    }
+  ],
+  "cases": [
+    {
+      "id": "case-001",
+      "title": "Acute Gastroenteritis in Golden Retriever",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-001",
+        "species": "dog",
+        "name": "Max",
+        "age": "5 years",
+        "breed": "Golden Retriever",
+        "weight": "30 kg",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-001",
+          "description": "Lethargy and reduced appetite",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-002",
+          "description": "Vomiting (2-3 times in past 24 hours)",
+          "severity": "moderate",
+          "visible": false
+        },
+        {
+          "id": "symptom-003",
+          "description": "Pale gums",
+          "severity": "mild",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Max hasn't been eating well and seems tired. He vomited a few times yesterday.",
+        "duration": "2 days",
+        "progression": "Gradually worsening",
+        "additionalNotes": "No recent travel or diet changes. Up to date on vaccinations."
+      },
+      "correctDiagnosis": "Gastroenteritis",
+      "possibleDiagnoses": ["Gastroenteritis", "Dietary indiscretion", "Parasitic infection", "Pancreatitis"],
+      "recommendedTests": ["physical-exam", "complete-blood-count", "fecal-exam"],
+      "correctTreatments": ["supportive-care", "anti-nausea", "bland-diet"],
+      "completed": false
+    },
+    {
+      "id": "case-002",
+      "title": "Feline Hyperthyroidism",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-002",
+        "species": "cat",
+        "name": "Whiskers",
+        "age": "12 years",
+        "breed": "Domestic Shorthair",
+        "weight": "3.2 kg",
+        "sex": "female"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-004",
+          "description": "Weight loss despite increased appetite",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-005",
+          "description": "Hyperactivity and restlessness",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-006",
+          "description": "Increased water consumption",
+          "severity": "mild",
+          "visible": false
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Whiskers has been eating more but losing weight. She seems very active, almost manic.",
+        "duration": "3 months",
+        "progression": "Slowly progressive",
+        "additionalNotes": "Indoor cat, no recent stressors. Drinking more water lately."
+      },
+      "correctDiagnosis": "Hyperthyroidism",
+      "possibleDiagnoses": ["Hyperthyroidism", "Diabetes mellitus", "Inflammatory bowel disease", "Chronic kidney disease"],
+      "recommendedTests": ["physical-exam", "complete-blood-count", "biochemistry-panel", "thyroid-panel"],
+      "correctTreatments": ["methimazole", "dietary-management", "monitoring"],
+      "completed": false
+    },
+    {
+      "id": "case-003",
+      "title": "Canine Heart Failure",
+      "difficulty": "hard",
+      "animal": {
+        "id": "patient-003",
+        "species": "dog",
+        "name": "Buddy",
+        "age": "8 years",
+        "breed": "Cavalier King Charles Spaniel",
+        "weight": "18 kg",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-007",
+          "description": "Exercise intolerance and fatigue",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-008",
+          "description": "Dry cough, especially at night",
+          "severity": "moderate",
+          "visible": false
+        },
+        {
+          "id": "symptom-009",
+          "description": "Heart murmur grade 4/6",
+          "severity": "severe",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Buddy gets tired easily and has been coughing at night. He can't walk as far as he used to.",
+        "duration": "6 months",
+        "progression": "Progressive worsening",
+        "additionalNotes": "Breed predisposition to heart disease. Previous murmur noted 2 years ago."
+      },
+      "correctDiagnosis": "Mitral valve disease with congestive heart failure",
+      "possibleDiagnoses": ["Mitral valve disease", "Dilated cardiomyopathy", "Pulmonary hypertension", "Bronchitis"],
+      "recommendedTests": ["physical-exam", "radiography-chest", "echocardiogram", "complete-blood-count", "biochemistry-panel"],
+      "correctTreatments": ["furosemide", "ace-inhibitor", "pimobendan", "dietary-sodium-restriction"],
+      "completed": false
+    },
+    {
+      "id": "case-004",
+      "title": "Equine Colic",
+      "difficulty": "hard",
+      "animal": {
+        "id": "patient-004",
+        "species": "horse",
+        "name": "Thunder",
+        "age": "15 years",
+        "breed": "Thoroughbred",
+        "weight": "500 kg",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-010",
+          "description": "Abdominal pain and pawing",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-011",
+          "description": "Rolling and looking at flanks",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-012",
+          "description": "Absence of gut sounds",
+          "severity": "severe",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Thunder is showing signs of severe abdominal pain, rolling and pawing. Started suddenly this morning.",
+        "duration": "4 hours",
+        "progression": "Acute onset, severe",
+        "additionalNotes": "Fed normally yesterday. Recent change to new hay batch."
+      },
+      "correctDiagnosis": "Large colon impaction",
+      "possibleDiagnoses": ["Large colon impaction", "Small intestinal obstruction", "Gastric dilatation", "Peritonitis"],
+      "recommendedTests": ["physical-exam", "rectal-exam", "nasogastric-intubation", "radiography-abdomen", "ultrasound-abdomen"],
+      "correctTreatments": ["iv-fluids", "analgesics", "mineral-oil", "walking-exercise"],
+      "completed": false
+    },
+    {
+      "id": "case-005",
+      "title": "Avian Respiratory Infection",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-005",
+        "species": "bird",
+        "name": "Polly",
+        "age": "3 years",
+        "breed": "African Grey Parrot",
+        "weight": "450 g",
+        "sex": "female"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-013",
+          "description": "Difficulty breathing and tail bobbing",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-014",
+          "description": "Nasal discharge",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-015",
+          "description": "Decreased vocalization",
+          "severity": "mild",
+          "visible": false
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Polly has been breathing heavily and has discharge from her nose. She's not talking as much as usual.",
+        "duration": "5 days",
+        "progression": "Gradually worsening",
+        "additionalNotes": "Recently introduced new bird to household. Diet unchanged."
+      },
+      "correctDiagnosis": "Aspergillosis",
+      "possibleDiagnoses": ["Aspergillosis", "Bacterial pneumonia", "Air sac mites", "Chlamydiosis"],
+      "recommendedTests": ["physical-exam", "radiography-chest", "tracheal-wash", "fungal-culture"],
+      "correctTreatments": ["antifungal-therapy", "nebulization", "supportive-care"],
+      "completed": false
+    },
+    {
+      "id": "case-006",
+      "title": "Canine Diabetes Mellitus",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-006",
+        "species": "dog",
+        "name": "Bella",
+        "age": "9 years",
+        "breed": "Labrador Retriever",
+        "weight": "28 kg",
+        "sex": "female"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-016",
+          "description": "Increased water consumption",
+          "severity": "severe",
+          "visible": false
+        },
+        {
+          "id": "symptom-017",
+          "description": "Frequent urination",
+          "severity": "severe",
+          "visible": false
+        },
+        {
+          "id": "symptom-018",
+          "description": "Weight loss despite normal appetite",
+          "severity": "moderate",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Bella has been drinking and urinating excessively. She's lost weight but is still eating well.",
+        "duration": "3 weeks",
+        "progression": "Progressive",
+        "additionalNotes": "Spayed female. No previous health issues. Recent heat cycle before spaying."
+      },
+      "correctDiagnosis": "Diabetes mellitus",
+      "possibleDiagnoses": ["Diabetes mellitus", "Cushing's disease", "Chronic kidney disease", "Pyometra"],
+      "recommendedTests": ["physical-exam", "complete-blood-count", "biochemistry-panel", "urinalysis"],
+      "correctTreatments": ["insulin-therapy", "dietary-management", "monitoring"],
+      "completed": false
+    },
+    {
+      "id": "case-007",
+      "title": "Feline Lower Urinary Tract Disease",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-007",
+        "species": "cat",
+        "name": "Felix",
+        "age": "4 years",
+        "breed": "Persian",
+        "weight": "5.5 kg",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-019",
+          "description": "Straining to urinate",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-020",
+          "description": "Blood in urine",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-021",
+          "description": "Frequent trips to litter box",
+          "severity": "moderate",
+          "visible": false
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Felix has been straining in the litter box and I noticed blood in his urine. He keeps going back to the box repeatedly.",
+        "duration": "2 days",
+        "progression": "Acute onset, worsening",
+        "additionalNotes": "Indoor cat, dry food diet. Recent stress from moving house."
+      },
+      "correctDiagnosis": "Feline idiopathic cystitis",
+      "possibleDiagnoses": ["Feline idiopathic cystitis", "Urinary tract infection", "Urolithiasis", "Urethral obstruction"],
+      "recommendedTests": ["physical-exam", "urinalysis", "urine-culture", "radiography-abdomen"],
+      "correctTreatments": ["pain-management", "stress-reduction", "dietary-modification", "increased-water-intake"],
+      "completed": false
+    },
+    {
+      "id": "case-008",
+      "title": "Reptilian Metabolic Bone Disease",
+      "difficulty": "hard",
+      "animal": {
+        "id": "patient-008",
+        "species": "reptile",
+        "name": "Spike",
+        "age": "2 years",
+        "breed": "Bearded Dragon",
+        "weight": "320 g",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-022",
+          "description": "Soft, bendable jaw",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-023",
+          "description": "Tremors and muscle twitching",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-024",
+          "description": "Difficulty walking",
+          "severity": "moderate",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Spike's jaw feels soft and he's been having tremors. He seems to have trouble walking normally.",
+        "duration": "4 weeks",
+        "progression": "Progressive",
+        "additionalNotes": "Diet consists mainly of lettuce and crickets. No UVB lighting. Housed indoors."
+      },
+      "correctDiagnosis": "Metabolic bone disease (nutritional secondary hyperparathyroidism)",
+      "possibleDiagnoses": ["Metabolic bone disease", "Infectious arthritis", "Neurological disorder", "Calcium deficiency"],
+      "recommendedTests": ["physical-exam", "radiography", "blood-calcium", "phosphorus", "vitamin-d3"],
+      "correctTreatments": ["calcium-supplementation", "uvb-lighting", "dietary-correction", "vitamin-d3"],
+      "completed": false
+    },
+    {
+      "id": "case-009",
+      "title": "Bovine Mastitis",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-009",
+        "species": "livestock",
+        "name": "Bessie",
+        "age": "5 years",
+        "breed": "Holstein",
+        "weight": "650 kg",
+        "sex": "female"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-025",
+          "description": "Swollen, hot udder quarter",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-026",
+          "description": "Abnormal milk with clots",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-027",
+          "description": "Decreased milk production",
+          "severity": "moderate",
+          "visible": false
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Bessie's rear left udder quarter is swollen and hot. The milk looks abnormal with chunks in it.",
+        "duration": "1 day",
+        "progression": "Acute onset",
+        "additionalNotes": "Recently calved 3 weeks ago. Good milker previously. Other cows unaffected."
+      },
+      "correctDiagnosis": "Acute mastitis",
+      "possibleDiagnoses": ["Acute mastitis", "Chronic mastitis", "Udder trauma", "Milk fever"],
+      "recommendedTests": ["physical-exam", "milk-culture", "somatic-cell-count", "complete-blood-count"],
+      "correctTreatments": ["antibiotics", "anti-inflammatory", "frequent-milking", "udder-support"],
+      "completed": false
+    },
+    {
+      "id": "case-010",
+      "title": "Canine Bloat/GDV",
+      "difficulty": "hard",
+      "animal": {
+        "id": "patient-010",
+        "species": "dog",
+        "name": "Zeus",
+        "age": "6 years",
+        "breed": "Great Dane",
+        "weight": "70 kg",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-028",
+          "description": "Distended, hard abdomen",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-029",
+          "description": "Unproductive retching",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-030",
+          "description": "Restlessness and pacing",
+          "severity": "severe",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Zeus's belly is hugely swollen and he keeps trying to vomit but nothing comes up. He can't settle down.",
+        "duration": "2 hours",
+        "progression": "Rapid onset, emergency",
+        "additionalNotes": "Ate large meal 3 hours ago then went for a run. Breed predisposed to bloat."
+      },
+      "correctDiagnosis": "Gastric dilatation-volvulus (GDV)",
+      "possibleDiagnoses": ["Gastric dilatation-volvulus", "Simple bloat", "Splenic torsion", "Intestinal obstruction"],
+      "recommendedTests": ["physical-exam", "radiography-abdomen", "ecg", "blood-pressure"],
+      "correctTreatments": ["emergency-surgery", "gastric-decompression", "iv-fluids", "shock-treatment"],
+      "completed": false
+    },
+    {
+      "id": "case-011",
+      "title": "Feline Chronic Kidney Disease",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-011",
+        "species": "cat",
+        "name": "Shadow",
+        "age": "14 years",
+        "breed": "Maine Coon",
+        "weight": "4.8 kg",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-031",
+          "description": "Increased water consumption",
+          "severity": "moderate",
+          "visible": false
+        },
+        {
+          "id": "symptom-032",
+          "description": "Weight loss and poor coat condition",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-033",
+          "description": "Occasional vomiting",
+          "severity": "mild",
+          "visible": false
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Shadow has been drinking more water and losing weight gradually. His coat doesn't look as good as it used to.",
+        "duration": "6 months",
+        "progression": "Slowly progressive",
+        "additionalNotes": "Senior cat, previous dental disease. Indoor/outdoor cat."
+      },
+      "correctDiagnosis": "Chronic kidney disease",
+      "possibleDiagnoses": ["Chronic kidney disease", "Hyperthyroidism", "Diabetes mellitus", "Dental disease"],
+      "recommendedTests": ["physical-exam", "complete-blood-count", "biochemistry-panel", "urinalysis", "urine-culture"],
+      "correctTreatments": ["renal-diet", "phosphorus-binders", "ace-inhibitors", "supportive-care"],
+      "completed": false
+    },
+    {
+      "id": "case-012",
+      "title": "Canine Epilepsy",
+      "difficulty": "hard",
+      "animal": {
+        "id": "patient-012",
+        "species": "dog",
+        "name": "Lucky",
+        "age": "3 years",
+        "breed": "Border Collie",
+        "weight": "22 kg",
+        "sex": "female"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-034",
+          "description": "Generalized seizures",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-035",
+          "description": "Post-ictal confusion",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-036",
+          "description": "Normal between episodes",
+          "severity": "mild",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Lucky has had three seizures in the past month. They last about 2 minutes and she's confused afterwards but then returns to normal.",
+        "duration": "1 month",
+        "progression": "Episodic, increasing frequency",
+        "additionalNotes": "No known toxin exposure. Seizures occur at random times. Normal behavior between episodes."
+      },
+      "correctDiagnosis": "Idiopathic epilepsy",
+      "possibleDiagnoses": ["Idiopathic epilepsy", "Brain tumor", "Toxin exposure", "Metabolic disorder"],
+      "recommendedTests": ["physical-exam", "neurological-exam", "complete-blood-count", "biochemistry-panel", "mri-scan"],
+      "correctTreatments": ["anticonvulsants", "phenobarbital", "lifestyle-management", "monitoring"],
+      "completed": false
+    },
+    {
+      "id": "case-013",
+      "title": "Exotic Small Mammal GI Stasis",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-013",
+        "species": "exotic",
+        "name": "Nibbles",
+        "age": "4 years",
+        "breed": "Holland Lop Rabbit",
+        "weight": "1.8 kg",
+        "sex": "female"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-037",
+          "description": "Decreased appetite and cecotrophy",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-038",
+          "description": "Reduced fecal production",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-039",
+          "description": "Hunched posture",
+          "severity": "moderate",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Nibbles hasn't been eating her pellets and I've noticed much fewer droppings in her cage. She's sitting hunched up.",
+        "duration": "18 hours",
+        "progression": "Acute onset",
+        "additionalNotes": "Diet change to new pellet brand 3 days ago. Usually very active and social."
+      },
+      "correctDiagnosis": "Gastrointestinal stasis",
+      "possibleDiagnoses": ["GI stasis", "Intestinal obstruction", "Dental disease", "Stress-related anorexia"],
+      "recommendedTests": ["physical-exam", "radiography-abdomen", "complete-blood-count", "fecal-exam"],
+      "correctTreatments": ["motility-agents", "pain-management", "force-feeding", "iv-fluids"],
+      "completed": false
+    },
+    {
+      "id": "case-014",
+      "title": "Canine Cushing's Disease",
+      "difficulty": "hard",
+      "animal": {
+        "id": "patient-014",
+        "species": "dog",
+        "name": "Molly",
+        "age": "10 years",
+        "breed": "Poodle",
+        "weight": "15 kg",
+        "sex": "female"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-040",
+          "description": "Pot-bellied appearance",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-041",
+          "description": "Excessive panting",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-042",
+          "description": "Thinning hair coat",
+          "severity": "mild",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Molly has developed a pot belly and pants a lot even when resting. Her coat is getting thin.",
+        "duration": "8 months",
+        "progression": "Slowly progressive",
+        "additionalNotes": "Increased appetite and thirst. Muscle weakness noted. Previously on long-term steroids for allergies."
+      },
+      "correctDiagnosis": "Hyperadrenocorticism (Cushing's disease)",
+      "possibleDiagnoses": ["Cushing's disease", "Diabetes mellitus", "Hypothyroidism", "Liver disease"],
+      "recommendedTests": ["physical-exam", "complete-blood-count", "biochemistry-panel", "cortisol-test", "ultrasound-abdomen"],
+      "correctTreatments": ["trilostane", "dietary-management", "monitoring", "exercise-restriction"],
+      "completed": false
+    },
+    {
+      "id": "case-015",
+      "title": "Feline Cardiomyopathy",
+      "difficulty": "hard",
+      "animal": {
+        "id": "patient-015",
+        "species": "cat",
+        "name": "Mittens",
+        "age": "7 years",
+        "breed": "British Shorthair",
+        "weight": "6.2 kg",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-043",
+          "description": "Rapid breathing at rest",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-044",
+          "description": "Open-mouth breathing",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-045",
+          "description": "Hiding and lethargy",
+          "severity": "moderate",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Mittens has been breathing rapidly and I saw him breathing with his mouth open. He's been hiding under the bed.",
+        "duration": "3 days",
+        "progression": "Acute onset, rapidly worsening",
+        "additionalNotes": "Previously healthy. No known heart murmur. Obese cat."
+      },
+      "correctDiagnosis": "Hypertrophic cardiomyopathy with congestive heart failure",
+      "possibleDiagnoses": ["Hypertrophic cardiomyopathy", "Asthma", "Pneumonia", "Pleural effusion"],
+      "recommendedTests": ["physical-exam", "radiography-chest", "echocardiogram", "nt-probnp"],
+      "correctTreatments": ["furosemide", "ace-inhibitor", "oxygen-therapy", "stress-reduction"],
+      "completed": false
+    },
+    {
+      "id": "case-016",
+      "title": "Canine Immune-Mediated Hemolytic Anemia",
+      "difficulty": "hard",
+      "animal": {
+        "id": "patient-016",
+        "species": "dog",
+        "name": "Ruby",
+        "age": "5 years",
+        "breed": "Cocker Spaniel",
+        "weight": "12 kg",
+        "sex": "female"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-046",
+          "description": "Pale gums and weakness",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-047",
+          "description": "Yellow-tinged skin and eyes",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-048",
+          "description": "Dark-colored urine",
+          "severity": "moderate",
+          "visible": false
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Ruby has become very weak and her gums look pale. I noticed her skin and eyes look yellowish.",
+        "duration": "4 days",
+        "progression": "Rapidly progressive",
+        "additionalNotes": "Recent vaccination 10 days ago. No toxin exposure known. Breed predisposition."
+      },
+      "correctDiagnosis": "Immune-mediated hemolytic anemia",
+      "possibleDiagnoses": ["IMHA", "Babesiosis", "Zinc toxicity", "Onion toxicity"],
+      "recommendedTests": ["physical-exam", "complete-blood-count", "reticulocyte-count", "coombs-test", "blood-smear"],
+      "correctTreatments": ["immunosuppressants", "blood-transfusion", "supportive-care", "monitoring"],
+      "completed": false
+    },
+    {
+      "id": "case-017",
+      "title": "Equine Laminitis",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-017",
+        "species": "horse",
+        "name": "Star",
+        "age": "12 years",
+        "breed": "Quarter Horse",
+        "weight": "480 kg",
+        "sex": "female"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-049",
+          "description": "Reluctance to move and shifting weight",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-050",
+          "description": "Digital pulse palpable",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-051",
+          "description": "Rocked-back stance",
+          "severity": "severe",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Star is barely walking and stands with her weight shifted back on her heels. She seems to be in pain.",
+        "duration": "2 days",
+        "progression": "Acute onset following grain overload",
+        "additionalNotes": "Got into grain room 4 days ago. Overweight mare. Previous episodes of foot sensitivity."
+      },
+      "correctDiagnosis": "Acute laminitis",
+      "possibleDiagnoses": ["Acute laminitis", "Sole abscess", "Fracture", "Tendon injury"],
+      "recommendedTests": ["physical-exam", "hoof-testers", "radiography", "venogram"],
+      "correctTreatments": ["nsaids", "frog-support", "cold-therapy", "restricted-movement"],
+      "completed": false
+    },
+    {
+      "id": "case-018",
+      "title": "Avian Egg Binding",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-018",
+        "species": "bird",
+        "name": "Sunny",
+        "age": "2 years",
+        "breed": "Cockatiel",
+        "weight": "85 g",
+        "sex": "female"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-052",
+          "description": "Straining and tail wagging",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-053",
+          "description": "Sitting on cage bottom",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-054",
+          "description": "Fluffed appearance",
+          "severity": "moderate",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Sunny has been straining and wagging her tail. She's sitting on the bottom of the cage looking fluffed up.",
+        "duration": "8 hours",
+        "progression": "Acute onset",
+        "additionalNotes": "Has been laying eggs regularly. No mate present. Seed-based diet."
+      },
+      "correctDiagnosis": "Egg binding (dystocia)",
+      "possibleDiagnoses": ["Egg binding", "Prolapsed cloaca", "Intestinal obstruction", "Peritonitis"],
+      "recommendedTests": ["physical-exam", "radiography", "palpation"],
+      "correctTreatments": ["calcium-gluconate", "oxytocin", "warm-environment", "manual-extraction"],
+      "completed": false
+    },
+    {
+      "id": "case-019",
+      "title": "Canine Pancreatitis",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-019",
+        "species": "dog",
+        "name": "Cooper",
+        "age": "8 years",
+        "breed": "Schnauzer",
+        "weight": "9 kg",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-055",
+          "description": "Vomiting and abdominal pain",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-056",
+          "description": "Prayer position",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-057",
+          "description": "Dehydration",
+          "severity": "moderate",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Cooper has been vomiting and seems to be in abdominal pain. He keeps getting into a prayer-like position.",
+        "duration": "2 days",
+        "progression": "Acute onset after fatty meal",
+        "additionalNotes": "Fed table scraps including bacon 3 days ago. Breed predisposition to pancreatitis."
+      },
+      "correctDiagnosis": "Acute pancreatitis",
+      "possibleDiagnoses": ["Pancreatitis", "Gastroenteritis", "Intestinal obstruction", "Liver disease"],
+      "recommendedTests": ["physical-exam", "complete-blood-count", "biochemistry-panel", "pancreatic-lipase", "ultrasound-abdomen"],
+      "correctTreatments": ["iv-fluids", "pain-management", "antiemetics", "nutritional-support"],
+      "completed": false
+    },
+    {
+      "id": "case-020",
+      "title": "Feline Asthma",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-020",
+        "species": "cat",
+        "name": "Smokey",
+        "age": "6 years",
+        "breed": "Siamese",
+        "weight": "4.5 kg",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-058",
+          "description": "Wheezing and coughing",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-059",
+          "description": "Open-mouth breathing during episodes",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-060",
+          "description": "Crouched posture during breathing",
+          "severity": "moderate",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Smokey has episodes of wheezing and coughing. During bad episodes, he breathes with his mouth open and crouches down.",
+        "duration": "3 months",
+        "progression": "Episodic, worsening with stress",
+        "additionalNotes": "Episodes triggered by dusty litter or stress. Owner smokes in house."
+      },
+      "correctDiagnosis": "Feline asthma",
+      "possibleDiagnoses": ["Feline asthma", "Heartworm disease", "Pneumonia", "Cardiac disease"],
+      "recommendedTests": ["physical-exam", "radiography-chest", "complete-blood-count", "heartworm-test"],
+      "correctTreatments": ["bronchodilators", "corticosteroids", "environmental-control", "stress-reduction"],
+      "completed": false
+    },
+    {
+      "id": "case-021",
+      "title": "Canine Hip Dysplasia",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-021",
+        "species": "dog",
+        "name": "Bear",
+        "age": "18 months",
+        "breed": "German Shepherd",
+        "weight": "35 kg",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-061",
+          "description": "Difficulty rising and bunny-hopping gait",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-062",
+          "description": "Reluctance to exercise",
+          "severity": "mild",
+          "visible": true
+        },
+        {
+          "id": "symptom-063",
+          "description": "Muscle atrophy in hindquarters",
+          "severity": "mild",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Bear has trouble getting up and runs with a bunny-hopping gait. He doesn't want to exercise as much as he used to.",
+        "duration": "6 months",
+        "progression": "Slowly progressive",
+        "additionalNotes": "Large breed dog. Parents not hip-scored. Rapid growth phase."
+      },
+      "correctDiagnosis": "Hip dysplasia with secondary osteoarthritis",
+      "possibleDiagnoses": ["Hip dysplasia", "Cruciate ligament rupture", "Panosteitis", "Osteochondrosis"],
+      "recommendedTests": ["physical-exam", "orthopedic-exam", "radiography-hips", "hip-scoring"],
+      "correctTreatments": ["weight-management", "exercise-modification", "nsaids", "physiotherapy"],
+      "completed": false
+    },
+    {
+      "id": "case-022",
+      "title": "Bovine Pregnancy Toxemia",
+      "difficulty": "hard",
+      "animal": {
+        "id": "patient-022",
+        "species": "livestock",
+        "name": "Daisy",
+        "age": "6 years",
+        "breed": "Angus",
+        "weight": "600 kg",
+        "sex": "female"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-064",
+          "description": "Depression and weakness",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-065",
+          "description": "Sweet-smelling breath",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-066",
+          "description": "Decreased appetite",
+          "severity": "severe",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Daisy is very weak and depressed. She's not eating and her breath has a sweet smell. She's due to calve in 2 weeks.",
+        "duration": "3 days",
+        "progression": "Progressive deterioration",
+        "additionalNotes": "Twin pregnancy confirmed on ultrasound. Body condition score 2/5. Poor pasture quality."
+      },
+      "correctDiagnosis": "Pregnancy toxemia (ketosis)",
+      "possibleDiagnoses": ["Pregnancy toxemia", "Milk fever", "Grass tetany", "Hardware disease"],
+      "recommendedTests": ["physical-exam", "blood-glucose", "ketones", "complete-blood-count", "biochemistry-panel"],
+      "correctTreatments": ["dextrose-iv", "corticosteroids", "propylene-glycol", "nutritional-support"],
+      "completed": false
+    },
+    {
+      "id": "case-023",
+      "title": "Reptilian Respiratory Infection",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-023",
+        "species": "reptile",
+        "name": "Slither",
+        "age": "3 years",
+        "breed": "Ball Python",
+        "weight": "800 g",
+        "sex": "female"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-067",
+          "description": "Mouth breathing and wheezing",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-068",
+          "description": "Mucus in mouth",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-069",
+          "description": "Lethargy and decreased appetite",
+          "severity": "mild",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Slither has been breathing through her mouth and making wheezing sounds. There's mucus visible in her mouth.",
+        "duration": "1 week",
+        "progression": "Gradually worsening",
+        "additionalNotes": "Enclosure humidity recently dropped. Temperature gradient maintained. Recent substrate change."
+      },
+      "correctDiagnosis": "Respiratory tract infection",
+      "possibleDiagnoses": ["Respiratory infection", "Pneumonia", "Inclusion body disease", "Parasitic infection"],
+      "recommendedTests": ["physical-exam", "oral-swab", "radiography-chest", "blood-culture"],
+      "correctTreatments": ["antibiotics", "nebulization", "environmental-correction", "supportive-care"],
+      "completed": false
+    },
+    {
+      "id": "case-024",
+      "title": "Feline Inflammatory Bowel Disease",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-024",
+        "species": "cat",
+        "name": "Ginger",
+        "age": "9 years",
+        "breed": "Orange Tabby",
+        "weight": "3.8 kg",
+        "sex": "female"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-070",
+          "description": "Chronic vomiting",
+          "severity": "moderate",
+          "visible": false
+        },
+        {
+          "id": "symptom-071",
+          "description": "Weight loss",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-072",
+          "description": "Soft stools",
+          "severity": "mild",
+          "visible": false
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Ginger has been vomiting regularly and losing weight. Her stools are often soft.",
+        "duration": "4 months",
+        "progression": "Chronic, slowly progressive",
+        "additionalNotes": "Multiple diet changes tried. No response to antibiotic therapy. Indoor cat."
+      },
+      "correctDiagnosis": "Inflammatory bowel disease",
+      "possibleDiagnoses": ["IBD", "Lymphoma", "Hyperthyroidism", "Food allergy"],
+      "recommendedTests": ["physical-exam", "complete-blood-count", "biochemistry-panel", "fecal-exam", "ultrasound-abdomen"],
+      "correctTreatments": ["dietary-trial", "corticosteroids", "immunosuppressants", "probiotics"],
+      "completed": false
+    },
+    {
+      "id": "case-025",
+      "title": "Canine Addison's Disease",
+      "difficulty": "hard",
+      "animal": {
+        "id": "patient-025",
+        "species": "dog",
+        "name": "Luna",
+        "age": "4 years",
+        "breed": "Standard Poodle",
+        "weight": "25 kg",
+        "sex": "female"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-073",
+          "description": "Episodic weakness and collapse",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-074",
+          "description": "Vomiting and diarrhea",
+          "severity": "moderate",
+          "visible": false
+        },
+        {
+          "id": "symptom-075",
+          "description": "Depression and lethargy",
+          "severity": "moderate",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Luna has episodes where she becomes very weak and almost collapses. She's been vomiting and having diarrhea.",
+        "duration": "3 weeks",
+        "progression": "Episodic, worsening with stress",
+        "additionalNotes": "Previously on long-term steroids for allergies, recently discontinued. Young adult female."
+      },
+      "correctDiagnosis": "Hypoadrenocorticism (Addison's disease)",
+      "possibleDiagnoses": ["Addison's disease", "Gastrointestinal disease", "Cardiac arrhythmia", "Toxin exposure"],
+      "recommendedTests": ["physical-exam", "complete-blood-count", "biochemistry-panel", "electrolytes", "cortisol-test"],
+      "correctTreatments": ["corticosteroids", "mineralocorticoids", "iv-fluids", "electrolyte-correction"],
+      "completed": false
+    },
+    {
+      "id": "case-026",
+      "title": "Avian Psittacosis",
+      "difficulty": "hard",
+      "animal": {
+        "id": "patient-026",
+        "species": "bird",
+        "name": "Charlie",
+        "age": "5 years",
+        "breed": "Macaw",
+        "weight": "850 g",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-076",
+          "description": "Respiratory distress and discharge",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-077",
+          "description": "Green-yellow droppings",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-078",
+          "description": "Conjunctivitis",
+          "severity": "moderate",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Charlie has been having trouble breathing with discharge from his nose. His droppings are green-yellow and his eyes look irritated.",
+        "duration": "1 week",
+        "progression": "Progressive deterioration",
+        "additionalNotes": "Recently purchased from pet store. No quarantine period. Owner developed flu-like symptoms."
+      },
+      "correctDiagnosis": "Psittacosis (Chlamydia psittaci)",
+      "possibleDiagnoses": ["Psittacosis", "Aspergillosis", "Bacterial pneumonia", "Viral infection"],
+      "recommendedTests": ["physical-exam", "radiography-chest", "pcr-testing", "serology"],
+      "correctTreatments": ["doxycycline", "supportive-care", "isolation", "owner-treatment"],
+      "completed": false
+    },
+    {
+      "id": "case-027",
+      "title": "Equine Recurrent Airway Obstruction",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-027",
+        "species": "horse",
+        "name": "Spirit",
+        "age": "16 years",
+        "breed": "Warmblood",
+        "weight": "550 kg",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-079",
+          "description": "Chronic cough and nasal discharge",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-080",
+          "description": "Exercise intolerance",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-081",
+          "description": "Increased respiratory effort",
+          "severity": "moderate",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Spirit has had a chronic cough and clear nasal discharge. His exercise tolerance has decreased significantly.",
+        "duration": "6 months",
+        "progression": "Chronic, worse in dusty conditions",
+        "additionalNotes": "Stabled horse, hay-fed. Symptoms worse in winter when stabled more. Previous respiratory episodes."
+      },
+      "correctDiagnosis": "Recurrent airway obstruction (heaves)",
+      "possibleDiagnoses": ["RAO/heaves", "Pneumonia", "EIPH", "Cardiac disease"],
+      "recommendedTests": ["physical-exam", "endoscopy", "bronchoalveolar-lavage", "radiography-chest"],
+      "correctTreatments": ["environmental-management", "bronchodilators", "corticosteroids", "turnout"],
+      "completed": false
+    },
+    {
+      "id": "case-028",
+      "title": "Canine Cruciate Ligament Rupture",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-028",
+        "species": "dog",
+        "name": "Rex",
+        "age": "7 years",
+        "breed": "Rottweiler",
+        "weight": "45 kg",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-082",
+          "description": "Sudden onset hind limb lameness",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-083",
+          "description": "Swollen knee joint",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-084",
+          "description": "Reluctance to bear weight",
+          "severity": "severe",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Rex suddenly started limping on his back leg after running in the yard. His knee looks swollen and he won't put weight on it.",
+        "duration": "2 days",
+        "progression": "Acute onset, persistent",
+        "additionalNotes": "Large breed dog, overweight. Heard a 'pop' sound when injury occurred."
+      },
+      "correctDiagnosis": "Cranial cruciate ligament rupture",
+      "possibleDiagnoses": ["Cruciate rupture", "Meniscal tear", "Patellar luxation", "Fracture"],
+      "recommendedTests": ["physical-exam", "orthopedic-exam", "radiography", "arthroscopy"],
+      "correctTreatments": ["surgical-repair", "weight-management", "physiotherapy", "pain-management"],
+      "completed": false
+    },
+    {
+      "id": "case-029",
+      "title": "Feline Hepatic Lipidosis",
+      "difficulty": "hard",
+      "animal": {
+        "id": "patient-029",
+        "species": "cat",
+        "name": "Patches",
+        "age": "8 years",
+        "breed": "Calico",
+        "weight": "5.8 kg",
+        "sex": "female"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-085",
+          "description": "Complete anorexia",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-086",
+          "description": "Icterus (yellow skin/eyes)",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-087",
+          "description": "Lethargy and hiding",
+          "severity": "moderate",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Patches stopped eating completely 5 days ago. Her skin and eyes have turned yellow and she's very lethargic.",
+        "duration": "5 days",
+        "progression": "Rapid deterioration",
+        "additionalNotes": "Obese cat, recent stress from house move. Previously healthy appetite."
+      },
+      "correctDiagnosis": "Hepatic lipidosis",
+      "possibleDiagnoses": ["Hepatic lipidosis", "Cholangiohepatitis", "Pancreatitis", "Biliary obstruction"],
+      "recommendedTests": ["physical-exam", "complete-blood-count", "biochemistry-panel", "coagulation-profile", "ultrasound-abdomen"],
+      "correctTreatments": ["nutritional-support", "tube-feeding", "appetite-stimulants", "supportive-care"],
+      "completed": false
+    },
+    {
+      "id": "case-030",
+      "title": "Canine Parvovirus",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-030",
+        "species": "dog",
+        "name": "Buddy",
+        "age": "4 months",
+        "breed": "Mixed Breed",
+        "weight": "8 kg",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-088",
+          "description": "Bloody diarrhea",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-089",
+          "description": "Vomiting and dehydration",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-090",
+          "description": "Depression and fever",
+          "severity": "moderate",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Buddy has severe bloody diarrhea and has been vomiting. He's very dehydrated and won't eat or drink.",
+        "duration": "2 days",
+        "progression": "Rapid onset and deterioration",
+        "additionalNotes": "Unvaccinated puppy. Recent exposure to other dogs at park. Rescued from shelter."
+      },
+      "correctDiagnosis": "Parvovirus enteritis",
+      "possibleDiagnoses": ["Parvovirus", "Hemorrhagic gastroenteritis", "Intussusception", "Foreign body"],
+      "recommendedTests": ["physical-exam", "parvo-test", "complete-blood-count", "fecal-exam"],
+      "correctTreatments": ["iv-fluids", "antiemetics", "antibiotics", "supportive-care"],
+      "completed": false
+    },
+    {
+      "id": "case-031",
+      "title": "Exotic Mammal Dental Disease",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-031",
+        "species": "exotic",
+        "name": "Chewy",
+        "age": "3 years",
+        "breed": "Chinchilla",
+        "weight": "550 g",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-091",
+          "description": "Difficulty eating and drooling",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-092",
+          "description": "Weight loss",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-093",
+          "description": "Pawing at mouth",
+          "severity": "mild",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Chewy has been having trouble eating and I've noticed him drooling. He's lost weight and keeps pawing at his mouth.",
+        "duration": "3 weeks",
+        "progression": "Gradually worsening",
+        "additionalNotes": "Diet consists mainly of pellets and occasional treats. No dental chews provided."
+      },
+      "correctDiagnosis": "Dental malocclusion with overgrowth",
+      "possibleDiagnoses": ["Dental overgrowth", "Dental abscess", "Oral trauma", "Tooth root infection"],
+      "recommendedTests": ["physical-exam", "oral-exam", "skull-radiography", "ct-scan"],
+      "correctTreatments": ["dental-trimming", "pain-management", "dietary-modification", "regular-monitoring"],
+      "completed": false
+    },
+    {
+      "id": "case-032",
+      "title": "Canine Hypothyroidism",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-032",
+        "species": "dog",
+        "name": "Sadie",
+        "age": "6 years",
+        "breed": "Golden Retriever",
+        "weight": "32 kg",
+        "sex": "female"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-094",
+          "description": "Weight gain and lethargy",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-095",
+          "description": "Poor coat quality and hair loss",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-096",
+          "description": "Cold intolerance",
+          "severity": "mild",
+          "visible": false
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Sadie has gained weight and become very sluggish. Her coat looks dull and she's losing hair, especially on her tail.",
+        "duration": "8 months",
+        "progression": "Slowly progressive",
+        "additionalNotes": "Spayed female. Seeks warm places. Exercise tolerance decreased. Breed predisposition."
+      },
+      "correctDiagnosis": "Hypothyroidism",
+      "possibleDiagnoses": ["Hypothyroidism", "Cushing's disease", "Dietary obesity", "Cardiac disease"],
+      "recommendedTests": ["physical-exam", "complete-blood-count", "biochemistry-panel", "thyroid-panel"],
+      "correctTreatments": ["thyroid-hormone-replacement", "weight-management", "exercise-program", "monitoring"],
+      "completed": false
+    },
+    {
+      "id": "case-033",
+      "title": "Reptilian Impaction",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-033",
+        "species": "reptile",
+        "name": "Tank",
+        "age": "4 years",
+        "breed": "Leopard Gecko",
+        "weight": "65 g",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-097",
+          "description": "Constipation and straining",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-098",
+          "description": "Distended abdomen",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-099",
+          "description": "Decreased appetite",
+          "severity": "moderate",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Tank hasn't had a bowel movement in over a week and his belly looks swollen. He's not eating as much.",
+        "duration": "1 week",
+        "progression": "Progressive",
+        "additionalNotes": "Sand substrate in enclosure. Recent change in diet. Temperature gradient appropriate."
+      },
+      "correctDiagnosis": "Sand impaction",
+      "possibleDiagnoses": ["Sand impaction", "Egg binding", "Intestinal obstruction", "Parasitic infection"],
+      "recommendedTests": ["physical-exam", "radiography-abdomen", "fecal-exam"],
+      "correctTreatments": ["substrate-removal", "warm-baths", "gentle-massage", "laxatives"],
+      "completed": false
+    },
+    {
+      "id": "case-034",
+      "title": "Bovine Displaced Abomasum",
+      "difficulty": "hard",
+      "animal": {
+        "id": "patient-034",
+        "species": "livestock",
+        "name": "Bella",
+        "age": "4 years",
+        "breed": "Holstein",
+        "weight": "580 kg",
+        "sex": "female"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-100",
+          "description": "Decreased appetite and milk production",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-101",
+          "description": "Left-sided abdominal distension",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-102",
+          "description": "Ketotic breath odor",
+          "severity": "mild",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Bella's milk production dropped dramatically and she's not eating well. Her left side looks distended.",
+        "duration": "3 days",
+        "progression": "Acute onset post-calving",
+        "additionalNotes": "Recently calved 1 week ago. High-producing dairy cow. Previous history of ketosis."
+      },
+      "correctDiagnosis": "Left displaced abomasum",
+      "possibleDiagnoses": ["Left displaced abomasum", "Ketosis", "Milk fever", "Retained placenta"],
+      "recommendedTests": ["physical-exam", "auscultation-percussion", "blood-glucose", "ketones", "ultrasound"],
+      "correctTreatments": ["surgical-correction", "calcium-supplementation", "dextrose", "roll-technique"],
+      "completed": false
+    },
+    {
+      "id": "case-035",
+      "title": "Feline Urethral Obstruction",
+      "difficulty": "hard",
+      "animal": {
+        "id": "patient-035",
+        "species": "cat",
+        "name": "Oscar",
+        "age": "3 years",
+        "breed": "Domestic Shorthair",
+        "weight": "5.2 kg",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-103",
+          "description": "Unable to urinate despite straining",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-104",
+          "description": "Vocalizing and distressed",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-105",
+          "description": "Enlarged, firm bladder",
+          "severity": "severe",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Oscar keeps going to the litter box but can't urinate. He's crying and seems very distressed. His belly feels hard.",
+        "duration": "12 hours",
+        "progression": "Acute onset, emergency",
+        "additionalNotes": "Male cat, dry food diet. Previous episodes of straining. Recent stress from new cat in household."
+      },
+      "correctDiagnosis": "Urethral obstruction",
+      "possibleDiagnoses": ["Urethral obstruction", "Severe cystitis", "Neurogenic bladder", "Trauma"],
+      "recommendedTests": ["physical-exam", "catheterization", "radiography", "complete-blood-count", "biochemistry-panel"],
+      "correctTreatments": ["emergency-catheterization", "iv-fluids", "pain-management", "urinary-acidifiers"],
+      "completed": false
+    },
+    {
+      "id": "case-036",
+      "title": "Canine Immune-Mediated Thrombocytopenia",
+      "difficulty": "hard",
+      "animal": {
+        "id": "patient-036",
+        "species": "dog",
+        "name": "Princess",
+        "age": "7 years",
+        "breed": "Spaniel",
+        "weight": "14 kg",
+        "sex": "female"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-106",
+          "description": "Spontaneous bruising and bleeding",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-107",
+          "description": "Petechiae on gums and skin",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-108",
+          "description": "Epistaxis (nosebleeds)",
+          "severity": "moderate",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Princess has developed bruises all over her body and her gums have tiny red spots. She's had several nosebleeds.",
+        "duration": "4 days",
+        "progression": "Rapid onset",
+        "additionalNotes": "Recent vaccination 2 weeks ago. No known toxin exposure. Previously healthy."
+      },
+      "correctDiagnosis": "Immune-mediated thrombocytopenia",
+      "possibleDiagnoses": ["ITP", "Tick-borne disease", "Drug reaction", "Bone marrow disease"],
+      "recommendedTests": ["physical-exam", "complete-blood-count", "platelet-count", "coagulation-profile", "tick-testing"],
+      "correctTreatments": ["immunosuppressants", "platelet-transfusion", "activity-restriction", "monitoring"],
+      "completed": false
+    },
+    {
+      "id": "case-037",
+      "title": "Avian Heavy Metal Toxicity",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-037",
+        "species": "bird",
+        "name": "Rio",
+        "age": "4 years",
+        "breed": "Conure",
+        "weight": "120 g",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-109",
+          "description": "Regurgitation and crop stasis",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-110",
+          "description": "Neurological signs and weakness",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-111",
+          "description": "Green-colored droppings",
+          "severity": "mild",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Rio has been regurgitating and seems weak with some neurological problems. His droppings are an unusual green color.",
+        "duration": "1 week",
+        "progression": "Progressive deterioration",
+        "additionalNotes": "Free-flight in house. Recent home renovation with old paint removal. Likes to chew on objects."
+      },
+      "correctDiagnosis": "Lead toxicity",
+      "possibleDiagnoses": ["Lead toxicity", "Zinc toxicity", "Infectious disease", "Nutritional deficiency"],
+      "recommendedTests": ["physical-exam", "radiography", "blood-lead-levels", "complete-blood-count"],
+      "correctTreatments": ["chelation-therapy", "crop-emptying", "supportive-care", "source-removal"],
+      "completed": false
+    },
+    {
+      "id": "case-038",
+      "title": "Equine Gastric Ulcers",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-038",
+        "species": "horse",
+        "name": "Blaze",
+        "age": "8 years",
+        "breed": "Thoroughbred",
+        "weight": "520 kg",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-112",
+          "description": "Poor appetite and weight loss",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-113",
+          "description": "Girthiness and back soreness",
+          "severity": "mild",
+          "visible": true
+        },
+        {
+          "id": "symptom-114",
+          "description": "Poor performance",
+          "severity": "moderate",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Blaze has been eating less and losing weight. He's become sensitive when girthing and his performance has declined.",
+        "duration": "6 weeks",
+        "progression": "Gradual decline",
+        "additionalNotes": "Competition horse, high-grain diet. Recent increase in training intensity. Some colic episodes."
+      },
+      "correctDiagnosis": "Equine gastric ulcer syndrome",
+      "possibleDiagnoses": ["Gastric ulcers", "Hindgut acidosis", "Dental problems", "Back pain"],
+      "recommendedTests": ["physical-exam", "gastroscopy", "fecal-blood", "back-examination"],
+      "correctTreatments": ["omeprazole", "dietary-management", "stress-reduction", "training-modification"],
+      "completed": false
+    },
+    {
+      "id": "case-039",
+      "title": "Canine Intervertebral Disc Disease",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-039",
+        "species": "dog",
+        "name": "Wiener",
+        "age": "6 years",
+        "breed": "Dachshund",
+        "weight": "7 kg",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-115",
+          "description": "Acute back pain and reluctance to move",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-116",
+          "description": "Hind limb weakness",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-117",
+          "description": "Hunched posture",
+          "severity": "moderate",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Wiener suddenly developed severe back pain and is reluctant to move. His back legs seem weak and he's hunched over.",
+        "duration": "1 day",
+        "progression": "Acute onset",
+        "additionalNotes": "Breed predisposition. Jumped off couch yesterday. Previous mild back episodes."
+      },
+      "correctDiagnosis": "Intervertebral disc disease (IVDD)",
+      "possibleDiagnoses": ["IVDD", "Spinal fracture", "Fibrocartilaginous embolism", "Meningitis"],
+      "recommendedTests": ["physical-exam", "neurological-exam", "radiography-spine", "mri-scan"],
+      "correctTreatments": ["cage-rest", "anti-inflammatory", "pain-management", "physiotherapy"],
+      "completed": false
+    },
+    {
+      "id": "case-040",
+      "title": "Feline Hypocalcemia (Eclampsia)",
+      "difficulty": "hard",
+      "animal": {
+        "id": "patient-040",
+        "species": "cat",
+        "name": "Mama",
+        "age": "2 years",
+        "breed": "Domestic Shorthair",
+        "weight": "3.5 kg",
+        "sex": "female"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-118",
+          "description": "Muscle tremors and tetany",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-119",
+          "description": "Hyperthermia",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-120",
+          "description": "Restlessness and panting",
+          "severity": "moderate",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Mama has been having muscle spasms and seems very hot. She's panting and can't settle down. She's nursing 5 kittens.",
+        "duration": "4 hours",
+        "progression": "Acute onset, rapidly worsening",
+        "additionalNotes": "Nursing mother with large litter. Kittens are 3 weeks old. Good body condition pre-pregnancy."
+      },
+      "correctDiagnosis": "Puerperal hypocalcemia (eclampsia)",
+      "possibleDiagnoses": ["Eclampsia", "Hypoglycemia", "Hyperthermia", "Toxin exposure"],
+      "recommendedTests": ["physical-exam", "blood-calcium", "blood-glucose", "temperature"],
+      "correctTreatments": ["calcium-gluconate-iv", "cooling", "kitten-supplementation", "monitoring"],
+      "completed": false
+    },
+    {
+      "id": "case-041",
+      "title": "Canine Laryngeal Paralysis",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-041",
+        "species": "dog",
+        "name": "Gruff",
+        "age": "11 years",
+        "breed": "Labrador Retriever",
+        "weight": "38 kg",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-121",
+          "description": "Inspiratory stridor and voice change",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-122",
+          "description": "Exercise intolerance",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-123",
+          "description": "Difficulty breathing in heat",
+          "severity": "severe",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Gruff makes a loud breathing noise, especially when excited. His bark sounds different and he can't tolerate heat or exercise.",
+        "duration": "6 months",
+        "progression": "Slowly progressive, worse in summer",
+        "additionalNotes": "Senior large breed dog. Symptoms worse with excitement or heat. Previous episodes of collapse."
+      },
+      "correctDiagnosis": "Laryngeal paralysis",
+      "possibleDiagnoses": ["Laryngeal paralysis", "Tracheal collapse", "Brachycephalic syndrome", "Laryngeal tumor"],
+      "recommendedTests": ["physical-exam", "laryngoscopy", "radiography-chest", "blood-gas-analysis"],
+      "correctTreatments": ["surgical-correction", "weight-management", "exercise-restriction", "cooling"],
+      "completed": false
+    },
+    {
+      "id": "case-042",
+      "title": "Exotic Mammal Heat Stroke",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-042",
+        "species": "exotic",
+        "name": "Fuzzy",
+        "age": "2 years",
+        "breed": "Ferret",
+        "weight": "800 g",
+        "sex": "female"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-124",
+          "description": "Panting and hyperthermia",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-125",
+          "description": "Lethargy and weakness",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-126",
+          "description": "Drooling",
+          "severity": "moderate",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Fuzzy was left in a hot car briefly and now she's panting heavily, very weak, and drooling.",
+        "duration": "2 hours",
+        "progression": "Acute onset after heat exposure",
+        "additionalNotes": "Accidentally left in car for 30 minutes on hot day. Usually very active. No previous health problems."
+      },
+      "correctDiagnosis": "Heat stroke",
+      "possibleDiagnoses": ["Heat stroke", "Cardiac arrest", "Hypoglycemia", "Insulinoma"],
+      "recommendedTests": ["physical-exam", "temperature", "blood-glucose", "complete-blood-count"],
+      "correctTreatments": ["aggressive-cooling", "iv-fluids", "oxygen-therapy", "monitoring"],
+      "completed": false
+    },
+    {
+      "id": "case-043",
+      "title": "Avian Crop Burn",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-043",
+        "species": "bird",
+        "name": "Baby",
+        "age": "6 weeks",
+        "breed": "Cockatiel Chick",
+        "weight": "45 g",
+        "sex": "unknown"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-127",
+          "description": "Visible burn on crop area",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-128",
+          "description": "Refusing to eat",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-129",
+          "description": "Regurgitation",
+          "severity": "moderate",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Baby has a red, burned area on her crop and won't eat. She's been regurgitating her food.",
+        "duration": "1 day",
+        "progression": "Acute onset after hand-feeding",
+        "additionalNotes": "Hand-feeding baby bird. Formula may have been too hot. First-time bird owner."
+      },
+      "correctDiagnosis": "Crop burn from overheated formula",
+      "possibleDiagnoses": ["Crop burn", "Crop infection", "Crop stasis", "Foreign body"],
+      "recommendedTests": ["physical-exam", "crop-palpation", "radiography"],
+      "correctTreatments": ["wound-care", "antibiotics", "tube-feeding", "surgical-repair"],
+      "completed": false
+    },
+    {
+      "id": "case-044",
+      "title": "Canine Autoimmune Skin Disease",
+      "difficulty": "hard",
+      "animal": {
+        "id": "patient-044",
+        "species": "dog",
+        "name": "Spot",
+        "age": "4 years",
+        "breed": "German Shepherd",
+        "weight": "28 kg",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-130",
+          "description": "Severe ulcerative skin lesions",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-131",
+          "description": "Erosions around nose and mouth",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-132",
+          "description": "Systemic illness and fever",
+          "severity": "moderate",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Spot developed severe skin ulcers and erosions around his nose and mouth. He seems systemically ill with fever.",
+        "duration": "2 weeks",
+        "progression": "Rapidly progressive",
+        "additionalNotes": "Previously healthy. No known allergies. Recent stress from moving house."
+      },
+      "correctDiagnosis": "Pemphigus complex",
+      "possibleDiagnoses": ["Pemphigus", "Systemic lupus", "Drug eruption", "Bacterial infection"],
+      "recommendedTests": ["physical-exam", "skin-biopsy", "immunofluorescence", "ana-testing"],
+      "correctTreatments": ["immunosuppressants", "topical-therapy", "antibiotics", "supportive-care"],
+      "completed": false
+    },
+    {
+      "id": "case-045",
+      "title": "Feline Saddle Thrombus",
+      "difficulty": "hard",
+      "animal": {
+        "id": "patient-045",
+        "species": "cat",
+        "name": "Smoky",
+        "age": "9 years",
+        "breed": "Maine Coon",
+        "weight": "5.5 kg",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-133",
+          "description": "Sudden paralysis of hind limbs",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-134",
+          "description": "Cold, pulseless hind legs",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-135",
+          "description": "Vocalization and distress",
+          "severity": "severe",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Smoky suddenly can't use his back legs and is crying in pain. His back legs feel cold and I can't feel a pulse.",
+        "duration": "3 hours",
+        "progression": "Acute onset, emergency",
+        "additionalNotes": "Known heart murmur. Previously diagnosed with cardiomyopathy. On cardiac medications."
+      },
+      "correctDiagnosis": "Aortic thromboembolism (saddle thrombus)",
+      "possibleDiagnoses": ["Saddle thrombus", "Spinal injury", "Disc disease", "Fracture"],
+      "recommendedTests": ["physical-exam", "echocardiogram", "doppler-flow", "radiography"],
+      "correctTreatments": ["pain-management", "anticoagulants", "supportive-care", "physiotherapy"],
+      "completed": false
+    },
+    {
+      "id": "case-046",
+      "title": "Reptilian Egg Binding",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-046",
+        "species": "reptile",
+        "name": "Shelly",
+        "age": "8 years",
+        "breed": "Red-Eared Slider",
+        "weight": "1.2 kg",
+        "sex": "female"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-136",
+          "description": "Straining and restlessness",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-137",
+          "description": "Abdominal distension",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-138",
+          "description": "Lethargy and decreased appetite",
+          "severity": "moderate",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Shelly has been straining and restless for 2 days. Her shell looks distended and she's not eating well.",
+        "duration": "2 days",
+        "progression": "Progressive",
+        "additionalNotes": "Mature female turtle. No suitable nesting site provided. Previous successful egg laying."
+      },
+      "correctDiagnosis": "Egg binding (dystocia)",
+      "possibleDiagnoses": ["Egg binding", "Intestinal obstruction", "Coelomic masses", "Bladder stones"],
+      "recommendedTests": ["physical-exam", "radiography", "ultrasound", "blood-work"],
+      "correctTreatments": ["oxytocin", "calcium-supplementation", "nesting-site", "surgical-removal"],
+      "completed": false
+    },
+    {
+      "id": "case-047",
+      "title": "Canine Vestibular Disease",
+      "difficulty": "medium",
+      "animal": {
+        "id": "patient-047",
+        "species": "dog",
+        "name": "Dizzy",
+        "age": "12 years",
+        "breed": "Cocker Spaniel",
+        "weight": "16 kg",
+        "sex": "female"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-139",
+          "description": "Head tilt and loss of balance",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-140",
+          "description": "Circling and falling",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-141",
+          "description": "Nystagmus (rapid eye movements)",
+          "severity": "moderate",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Dizzy suddenly developed a head tilt and keeps falling over. Her eyes are moving rapidly back and forth.",
+        "duration": "1 day",
+        "progression": "Acute onset",
+        "additionalNotes": "Senior dog. No recent trauma. Previous ear infections. Appetite maintained."
+      },
+      "correctDiagnosis": "Idiopathic vestibular syndrome",
+      "possibleDiagnoses": ["Idiopathic vestibular disease", "Ear infection", "Brain tumor", "Stroke"],
+      "recommendedTests": ["physical-exam", "neurological-exam", "otoscopy", "mri-scan"],
+      "correctTreatments": ["supportive-care", "anti-nausea", "physical-therapy", "monitoring"],
+      "completed": false
+    },
+    {
+      "id": "case-048",
+      "title": "Equine Potomac Horse Fever",
+      "difficulty": "hard",
+      "animal": {
+        "id": "patient-048",
+        "species": "horse",
+        "name": "River",
+        "age": "7 years",
+        "breed": "Arabian",
+        "weight": "450 kg",
+        "sex": "female"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-142",
+          "description": "Severe watery diarrhea",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-143",
+          "description": "Fever and depression",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-144",
+          "description": "Laminitis development",
+          "severity": "severe",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "River developed severe diarrhea and fever. Now she's showing signs of laminitis in her front feet.",
+        "duration": "4 days",
+        "progression": "Rapid progression to laminitis",
+        "additionalNotes": "Pastured near creek. Late summer timing. No recent travel or diet changes."
+      },
+      "correctDiagnosis": "Potomac Horse Fever (Neorickettsia risticii)",
+      "possibleDiagnoses": ["Potomac Horse Fever", "Salmonellosis", "Clostridal enteritis", "Sand colic"],
+      "recommendedTests": ["physical-exam", "pcr-testing", "serology", "fecal-culture", "complete-blood-count"],
+      "correctTreatments": ["oxytetracycline", "iv-fluids", "laminitis-prevention", "supportive-care"],
+      "completed": false
+    },
+    {
+      "id": "case-049",
+      "title": "Canine Lymphoma",
+      "difficulty": "hard",
+      "animal": {
+        "id": "patient-049",
+        "species": "dog",
+        "name": "Noble",
+        "age": "8 years",
+        "breed": "Golden Retriever",
+        "weight": "30 kg",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-145",
+          "description": "Enlarged lymph nodes",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-146",
+          "description": "Weight loss and lethargy",
+          "severity": "moderate",
+          "visible": true
+        },
+        {
+          "id": "symptom-147",
+          "description": "Decreased appetite",
+          "severity": "mild",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Noble has swollen glands under his jaw and neck. He's lost weight and seems less energetic than usual.",
+        "duration": "6 weeks",
+        "progression": "Slowly progressive",
+        "additionalNotes": "Breed predisposition. Previously healthy. Nodes feel firm and mobile."
+      },
+      "correctDiagnosis": "Multicentric lymphoma",
+      "possibleDiagnoses": ["Lymphoma", "Lymphadenitis", "Metastatic cancer", "Fungal infection"],
+      "recommendedTests": ["physical-exam", "lymph-node-biopsy", "cytology", "complete-blood-count", "staging"],
+      "correctTreatments": ["chemotherapy", "corticosteroids", "supportive-care", "monitoring"],
+      "completed": false
+    },
+    {
+      "id": "case-050",
+      "title": "Feline Pyothorax",
+      "difficulty": "hard",
+      "animal": {
+        "id": "patient-050",
+        "species": "cat",
+        "name": "Shadow",
+        "age": "5 years",
+        "breed": "Domestic Longhair",
+        "weight": "4.8 kg",
+        "sex": "male"
+      },
+      "symptoms": [
+        {
+          "id": "symptom-148",
+          "description": "Severe respiratory distress",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-149",
+          "description": "Open-mouth breathing",
+          "severity": "severe",
+          "visible": true
+        },
+        {
+          "id": "symptom-150",
+          "description": "Fever and lethargy",
+          "severity": "moderate",
+          "visible": true
+        }
+      ],
+      "ownerReport": {
+        "chiefComplaint": "Shadow is breathing very heavily with his mouth open and seems very sick. He's had a fever and won't eat.",
+        "duration": "3 days",
+        "progression": "Rapidly deteriorating",
+        "additionalNotes": "Outdoor cat, recent fighting with other cats. Previous bite wounds noted."
+      },
+      "correctDiagnosis": "Pyothorax (pleural empyema)",
+      "possibleDiagnoses": ["Pyothorax", "Pneumonia", "Heart failure", "Diaphragmatic hernia"],
+      "recommendedTests": ["physical-exam", "radiography-chest", "thoracocentesis", "fluid-analysis", "bacterial-culture"],
+      "correctTreatments": ["chest-tube-drainage", "antibiotics", "supportive-care", "oxygen-therapy"],
+      "completed": false
+    }
+  ]
+}
